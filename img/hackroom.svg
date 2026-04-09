@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <rect width="400" height="200" rx="12" fill="#1a1a2e"/>
+  <text x="200" y="90" font-family="Inter, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#e74c3c" text-anchor="middle" letter-spacing="2">HACK</text>
+  <text x="200" y="140" font-family="Inter, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="2">ROOM</text>
+  <rect x="82" y="96" width="236" height="2" fill="#e74c3c" opacity="0.4"/>
+  <text x="200" y="170" font-family="Inter, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#64748b" text-anchor="middle" letter-spacing="4">UNLOCK YOUR CYBER SKILLS</text>
+</svg>

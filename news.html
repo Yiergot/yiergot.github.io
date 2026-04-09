@@ -1,121 +1,239 @@
 <!DOCTYPE html>
-<html>
-</html>
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Luca Arnaboldi - Researcher</title>
-  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="all,follow">
-  <!-- Bootstrap CSS-->
-  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-  <!-- Font Awesome CSS-->
-  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-  <!-- Google fonts - Roboto-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
-  <!-- owl carousel-->
-  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
-  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
-    <link href="vendor/academicons-1.9.1/css/academicons.min.css" rel="stylesheet">
-  <!-- theme stylesheet-->
-  <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet">
-  <!-- Custom stylesheet - for your changes-->
-  <link rel="stylesheet" href="css/custom.css">
-  <!-- Favicon-->
+  <title>News | Luca Arnaboldi</title>
+  <meta name="description" content="Latest news and updates from Luca Arnaboldi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="vendor/academicons-1.9.1/css/academicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
   <link rel="shortcut icon" href="img/favicon.png">
-  <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  <script>
+    (function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t)})();
+  </script>
 </head>
 <body>
-  <div id="all">
-    <div class="container-fluid">
-      <div class="row row-offcanvas row-offcanvas-left"> 
-           <!--   *** SIDEBAR ***-->
-        <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
-          <div class="sidebar-content">
-            <h1 class="sidebar-heading"> <a href="index.html">Luca Arnaboldi</a></h1>
-            <p class="sidebar-p">I am a AI and Security researcher currently working as an Assistant Professor at the University of Birmingham </p>
-            <p class="sidebar-p"> </p>
-            <ul class="sidebar-menu">
-                <!-- Link-->
-                <li class="sidebar-item"><a href="index.html" class="sidebar-link">Home</a></li>
-                <!-- Link-->
-                <li class="sidebar-item"><a href="research.html" class="sidebar-link">Research</a></li>
-                <li class="sidebar-item"><a href="teaching.html" class="sidebar-link">Teaching</a></li>
-                <li class="sidebar-item"><a href="projects.html" class="sidebar-link">Student Projects</a></li>
 
-                <!-- Link-->
-                <li class="sidebar-item"><a href="news.html" class="sidebar-link active">News</a></li>
-                <!-- Link-->
-                <li class="sidebar-item"><a href="blog.html" class="sidebar-link">Blogs</a></li>
-            </ul>
-
-            <p class="social">
-                 <a href="https://scholar.google.co.uk/citations?user=2_72l3QAAAAJ&hl=en" target="_blank" class="social-btn"><i class="ai ai-google-scholar"></i></a><!-- dribble -->
-                  <a href="https://twitter.com/luca_arnaboldi" target="_blank" class="social-btn"><i class="fa fa-twitter"></i></a><!-- twitter -->
-                  <a href="https://www.researchgate.net/profile/Luca_Arnaboldi" target="_blank" class="social-btn"><i class="ai ai-researchgate"></i></a><!-- twitter -->
-                  <a href="https://uk.linkedin.com/in/luca-arnaboldi-829083b2" target="_blank" class="social-btn"><i class="fa fa-linkedin"></i></a><!-- twitter -->
-                  <a href="Curriculum_Vitae.pdf" target="_blank" class="social-btn">CV</a><!-- twitter -->
-            </p>
-            <div class="copyright text-center text-md-left">
-              <p class="credit">&copy;2024 Luca Arnaboldi | Template adapted from <a href="http://bootstrapious.com/portfolio-themes" class="external">Bootstrapious</a></p>
-              <!-- Please do not remove the backlink to us, unless you support the development at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)        -->
-            </div>
-          </div>
-        </div>
-        <!--   *** SIDEBAR END ***  -->
-        <!--   *** DETAIL ***-->
-        <div class="col-md-8 col-lg-9 content-column white-background">
-          <div class="small-navbar d-flex d-md-none">
-            <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary"> <i class="fa fa-align-left mr-2"></i>Menu</button>
-            <h1 class="small-navbar-heading"> <a href="index.html">Creative </a></h1>
-          </div>
-          <div class="row">
-            <div class="col-xl-10">
-              <div class="content-column-content">
-                <h1>Current News</h1>
-                <i class="fa fa-bullhorn" style="font-size:350px ;color:#2B7551"></i>
-                <div id="newslist">
-                    <ul class="news">
-                        <li> <i style="color:#2B7551">29 June 2022</i> - I've won an Informatics Staff Award for stepping in to teach Secure Programming MSc</i> <a href="https://web.inf.ed.ac.uk/infweb/news/informatics-staff-awards/informatics-staff-awards-2022">link</a> </li>
-
-                        <li> <i style="color:#2B7551">18 June 2022</i> - Ext. Abstract (FOMLAS22): <i>Why Robust Natural Language Understanding is a Challenge</i> <a href="#">soon</a> </li>
-
-                        <li> <i style="color:#2B7551">18 June 2022</i> - Ext. Abstract (FOMLAS22): <i>Vehicle: A High-Level Language for Embedding Logical Specifications in Neural Network</i> <a href="#">soon</a> </li>
-                         <li> <i style="color:#2B7551">31 May 2022</i> - New Paper (SENSEI22 - co-located SafeComp): <i>Towards Interdependent Safety Security Assessments using Bowties</i> <a href="#">soon</a> </li>
-                         <li> <i style="color:#2B7551">14 Apr 2022</i> - Presenting our autonomous research vehicle at the Edinburgh Science festival</i> <a href="img/portfolio/poster-science-festival-final.pdf" target="_blank">poster</a> </li>
-
-                         <li> <i style="color:#2B7551">4 Mar 2022</i> - New Paper (FormaLISE22): <i>Automating Cryptographic Protocol Language Generation from
-Structured Specifications</i> <a href="https://arxiv.org/pdf/2105.09150.pdf">link</a> </li>
-                         <li> <i style="color:#2B7551">10 Feb 2022</i> - New Preprint: <i>Vehicle: Interfacing Neural Network Verifiers with Interactive Theorem Provers</i> <a href="https://arxiv.org/abs/2202.05207">link</a> </li>
-                        <li> <i style="color:#2B7551">12th January 2022</i> - just started part time position (3mo) as University Teacher, running the MSc course on <a href="https://www.learn.ed.ac.uk/webapps/blackboard/content/listContent.jsp?content_id=_6578647_1&course_id=_91016_1">Secure Programming!</a> </li>
-                        <li> <i style="color:#2B7551">26th October 2021</i> - short interview with  Directindustry Magazine: see our thoughts at:   <i>"Is the Dream of Self-Driving Cars Dead?"</i> <a href="https://emag.directindustry.com/is-the-dream-of-self-driving-cars-dead/">link</a> </li>
-                        <li> <i style="color:#2B7551">19th May 2021</i> - New Preprint:  <i>"MetaCP: Cryptographic Protocol Design Tool for Formal Verification"</i> <a href="https://arxiv.org/abs/2105.09150">link</a> </li>
-                        <li> <i style="color:#2B7551">17th May 2021</i> - New Preprint:  <i>"A Review of Intrusion Detection Systems and Their Evaluation in the IoT"</i> <a href="https://arxiv.org/abs/2105.08096">link</a> </li>
-                        <li> <i style="color:#2B7551">6th April 20201</i>Just published an article in the Conversation: <i>"Perfecting self-driving cars – can it be done?"</i>
- <a href="https://theconversation.com/perfecting-self-driving-cars-can-it-be-done-157483">link<a></li>
-                        <li> <i style="color:#2B7551">23 March 2021</i> - New Preprint:  <i>"Explainable Machine Learning-driven Strategy for Automated Trading Pattern Extraction"</i> <a href="https://arxiv.org/abs/2103.12419">link</a> </li>
-                        <li> <i style="color:#2B7551">18th March 2021</i> - Joined UK-SPS Organizing Committee  <i>"UK Wide Seminar Series on Cyber Security"</i> <a href="http://uk-sps.org">link</a> </li>
-                        <li> <i style="color:#2B7551">28th January 2021</i> - Successfully Defended Viva</li>
-                        <li> <i style="color:#2B7551">14th December 2020</i> - Started Postdoc at Edinburgh - Working on Security of Autonomous Systems</li>
-                        <li> <i style="color:#2B7551">13th December 2020</i> - Submitted Thesis - <i>"A Methodology for the QuantitativeEvaluation of Attacks and Mitigationsin IoT Systems"</i>!</li>
-                    </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <!-- Navbar -->
+  <nav class="site-nav navbar navbar-expand-lg sticky-top">
+    <div class="container" style="max-width:960px">
+      <a class="navbar-brand" href="index.html">Luca Arnaboldi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
+          <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle ms-2" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
       </div>
     </div>
-  </div>
-  <!-- JavaScript files-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper.js/umd/popper.min.js"> </script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
-  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
-  <script src="js/front.js"></script>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="site-container">
+        <h1 class="page-title">News</h1>
+
+        <!-- 2026 -->
+        <h3 class="news-year">2026</h3>
+
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Jan 2026</span>
+          <span class="news-text">Awarded Foresight Research grant ($161,376) for "Zero Knowledge Attestation for AI Security".</span>
+        </div>
+
+        <!-- 2025 -->
+        <h3 class="news-year">2025</h3>
+
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Jul 2025</span>
+          <span class="news-text">Founded <strong>Zeroth Research</strong> &ndash; AI Safeguarding startup, grant-funded through ARIA.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Jul 2025</span>
+          <span class="news-text">Keynote speaker at <em>Symposium on AI Verification</em> (AIVerification.org), Zagreb, Croatia &ndash; "Towards Verifiable NLP".</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Jul 2025</span>
+          <span class="news-text">Awarded <strong>&pound;994,552</strong> ARIA Safeguarded AI Grant as PI for "Infrastructure for Safeguarded AI Systems".</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">May 2025</span>
+          <span class="news-text">Invited speaker at <em>Responsible AI Lab</em> &ndash; Business in the Community, London &ndash; "Cybersecurity in the Age of Responsible AI".</span>
+        </div>
+
+        <!-- 2024 -->
+        <h3 class="news-year">2024</h3>
+
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Dec 2024</span>
+          <span class="news-text">Expert commentary in <strong>Daily Mail</strong> on cybersecurity threats of SMS interceptions.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Nov 2024</span>
+          <span class="news-text">Invited talks at Oxford Verification Seminars and Durham University AIHS Seminars.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Oct 2024</span>
+          <span class="news-text">Awarded Manifund grant ($128,000) for "Formal Certification Technologies for AI Safety".</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Nov 2024</span>
+          <span class="news-text">Awarded <strong>&pound;150,000</strong> DSTL grant for "A Unified Framework for SNNs in Defence Contexts".</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Oct 2024</span>
+          <span class="news-text">Awarded Innovate UK Cyber Local grant for <em>HackRoom</em> &ndash; immersive cybersecurity escape rooms.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">May 2024</span>
+          <span class="news-text">Launched West Midlands chapter of Automotive Security Research Group (ASRG) with 50+ industry participants.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">May 2024</span>
+          <span class="news-text">Media interview in <strong>The Sun</strong> on AI voice cloning threats.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">May 2024</span>
+          <span class="news-text">Invited talk at Surrey Cyber Cluster on "Attacks on Autonomous Vehicle Sensors and AI Reasoning".</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Feb 2024</span>
+          <span class="news-text">Invited expert at UK-Canada Frontiers of Science Meeting on AI, Ottawa.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Jan 2024</span>
+          <span class="news-text">Research on account takeover attacks featured in 20+ media outlets (MSN, Tech Spark, Science Daily) reaching 30M+ readers. <a href="https://www.birmingham.ac.uk/news/2024/researchers-unveil-new-way-to-counter-mobile-phone-account-takeover-attacks" target="_blank">link</a></span>
+        </div>
+
+        <!-- 2023 -->
+        <h3 class="news-year">2023</h3>
+
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Oct 2023</span>
+          <span class="news-text">Invited talk at UKC3 Pan Cluster Event: "Future of AI: Benefits, Risks & Responsibilities".</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Oct 2023</span>
+          <span class="news-text">Radio interview on Free Radio / Hits Radio Network discussing AI Safety (around AI Safety Summit).</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Jun 2023</span>
+          <span class="news-text">Invited talk at Third Conference on Resilient and Robust Sensing for Autonomous Vehicles, Warwick.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">Feb 2023</span>
+          <span class="news-text">Started as <strong>Assistant Professor</strong> at the University of Birmingham, School of Computer Science.</span>
+        </div>
+
+        <!-- 2022 -->
+        <h3 class="news-year">2022</h3>
+
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">29 Jun</span>
+          <span class="news-text">Won <strong>Informatics Staff Award</strong> for teaching Secure Programming MSc. <a href="https://web.inf.ed.ac.uk/infweb/news/informatics-staff-awards/informatics-staff-awards-2022" target="_blank">link</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">18 Jun</span>
+          <span class="news-text">Extended abstracts accepted at FoMLAS22: <em>Why Robust Natural Language Understanding is a Challenge</em> and <em>Vehicle: A High-Level Language for Embedding Logical Specifications in Neural Networks</em>.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">31 May</span>
+          <span class="news-text">New paper at SENSEI@SafeComp: <em>Towards Interdependent Safety Security Assessments Using Bowties</em>.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">14 Apr</span>
+          <span class="news-text">Presented autonomous research vehicle at the Edinburgh Science Festival. <a href="img/portfolio/poster-science-festival-final.pdf" target="_blank">poster</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">4 Mar</span>
+          <span class="news-text">New paper at FormaliSE@ICSE: <em>Automating Cryptographic Protocol Language Generation from Structured Specifications</em>. <a href="https://arxiv.org/pdf/2105.09150.pdf" target="_blank">pdf</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">10 Feb</span>
+          <span class="news-text">New preprint: <em>Vehicle: Interfacing Neural Network Verifiers with Interactive Theorem Provers</em>. <a href="https://arxiv.org/abs/2202.05207" target="_blank">arxiv</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">12 Jan</span>
+          <span class="news-text">Started part-time position as University Teacher at Edinburgh, running MSc Secure Programming.</span>
+        </div>
+
+        <!-- 2021 -->
+        <h3 class="news-year">2021</h3>
+
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">26 Oct</span>
+          <span class="news-text">Interview with Directindustry Magazine: <em>"Is the Dream of Self-Driving Cars Dead?"</em> <a href="https://emag.directindustry.com/is-the-dream-of-self-driving-cars-dead/" target="_blank">link</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">19 May</span>
+          <span class="news-text">New preprint: <em>MetaCP: Cryptographic Protocol Design Tool for Formal Verification</em>. <a href="https://arxiv.org/abs/2105.09150" target="_blank">arxiv</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">17 May</span>
+          <span class="news-text">New preprint: <em>A Review of Intrusion Detection Systems and Their Evaluation in the IoT</em>. <a href="https://arxiv.org/abs/2105.08096" target="_blank">arxiv</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">6 Apr</span>
+          <span class="news-text">Published article in <strong>The Conversation</strong>: <em>"Perfecting self-driving cars &ndash; can it be done?"</em> &ndash; 24,194 readers. <a href="https://theconversation.com/perfecting-self-driving-cars-can-it-be-done-157483" target="_blank">link</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">23 Mar</span>
+          <span class="news-text">New preprint: <em>Explainable Machine Learning-driven Strategy for Automated Trading Pattern Extraction</em>. <a href="https://arxiv.org/abs/2103.12419" target="_blank">arxiv</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">18 Mar</span>
+          <span class="news-text">Joined UK-SPS Organizing Committee &ndash; UK-wide Seminar Series on Cyber Security. <a href="http://uk-sps.org" target="_blank">link</a></span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">28 Jan</span>
+          <span class="news-text">Successfully defended PhD viva.</span>
+        </div>
+
+        <!-- 2020 -->
+        <h3 class="news-year">2020</h3>
+
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">14 Dec</span>
+          <span class="news-text">Started Research Associate position at University of Edinburgh &ndash; working on security of autonomous systems.</span>
+        </div>
+        <div class="news-item animate-on-scroll">
+          <span class="news-date">13 Dec</span>
+          <span class="news-text">Submitted PhD thesis: <em>"A Methodology for the Quantitative Evaluation of Attacks and Mitigations in IoT Systems"</em>.</span>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="site-container">
+      <div class="footer-social">
+        <a href="https://scholar.google.co.uk/citations?user=2_72l3QAAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://uk.linkedin.com/in/luca-arnaboldi-829083b2" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="CV-L_Arnaboldi" target="_blank" aria-label="Download CV"><i class="fa-solid fa-id-badge"></i></a>
+      </div>
+      <p>&copy; 2026 Luca Arnaboldi</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+</html>

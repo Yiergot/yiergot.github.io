@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <rect width="400" height="200" rx="12" fill="#0f172a"/>
+  <text x="200" y="105" font-family="Inter, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#4ecca3" text-anchor="middle" letter-spacing="-1">Terminus</text>
+  <text x="200" y="150" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="300" fill="#94a3b8" text-anchor="middle" letter-spacing="6">TRACE</text>
+  <rect x="70" y="60" width="260" height="2" fill="#4ecca3" opacity="0.3"/>
+  <rect x="70" y="158" width="260" height="2" fill="#4ecca3" opacity="0.3"/>
+</svg>
