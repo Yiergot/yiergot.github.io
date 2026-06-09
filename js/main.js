@@ -237,10 +237,30 @@
   }
 })();
 
-// --- Scroll Animations ---
+// --- Scroll Animations (varied by element type) ---
 (function () {
-  var elements = document.querySelectorAll('.animate-on-scroll');
-  if (!elements.length) return;
+  var cards = document.querySelectorAll('.card-animate');
+  var heroes = document.querySelectorAll('.hero-animate');
+  var headings = document.querySelectorAll('.heading-animate');
+  var generic = document.querySelectorAll('.animate-on-scroll');
+
+  // Assign stagger delays to cards within the same grid
+  var grids = document.querySelectorAll('.card-grid');
+  grids.forEach(function (grid) {
+    var gridCards = grid.querySelectorAll('.card-animate');
+    gridCards.forEach(function (card, i) {
+      card.style.setProperty('--card-delay', (i * 80) + 'ms');
+    });
+  });
+
+  var allElements = [].concat(
+    Array.from(heroes),
+    Array.from(headings),
+    Array.from(cards),
+    Array.from(generic)
+  );
+
+  if (!allElements.length) return;
 
   var observer = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
@@ -249,7 +269,7 @@
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
 
-  elements.forEach(function (el) { observer.observe(el); });
+  allElements.forEach(function (el) { observer.observe(el); });
 })();
