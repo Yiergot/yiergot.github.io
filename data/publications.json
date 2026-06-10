@@ -134,8 +134,8 @@
       "Luca Arnaboldi"
     ],
     "year": 2025,
-    "venue": "VehicleSec Workshop",
-    "venueShort": "VehicleSec 2025",
+    "venue": "VehicleSec Workshop at USENIX Security",
+    "venueShort": "VehicleSec@USENIX 2025",
     "tags": [
       "Autonomous Vehicles"
     ],
@@ -394,7 +394,7 @@
       "Luca Arnaboldi"
     ],
     "year": 2022,
-    "venue": "International Conference on Formal Methods in Software Engineering",
+    "venue": "Workshop on Formal Methods in Software Engineering at ICSE",
     "venueShort": "FormaliSE@ICSE 2022",
     "tags": [
       "Cryptographic Protocols",
@@ -413,7 +413,7 @@
       "David Aspinall"
     ],
     "year": 2022,
-    "venue": "SAFECOMP Workshops",
+    "venue": "SENSEI Workshop at SAFECOMP",
     "venueShort": "SENSEI@SAFECOMP 2022",
     "tags": [
       "Autonomous Vehicles",
@@ -683,7 +683,7 @@
     ],
     "year": 2018,
     "venue": "Foundations of Computer Security Workshop at CSF",
-    "venueShort": "FCS 2018",
+    "venueShort": "FCS@CSF 2018",
     "tags": [
       "IoT Security",
       "Formal Verification"
@@ -699,8 +699,8 @@
       "Charles Morisset"
     ],
     "year": 2017,
-    "venue": "International Workshop on Security and Trust Management",
-    "venueShort": "STM 2017",
+    "venue": "International Workshop on Security and Trust Management at ESORICS",
+    "venueShort": "STM@ESORICS 2017",
     "tags": [
       "IoT Security",
       "Formal Verification"
