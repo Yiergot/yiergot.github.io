@@ -24,8 +24,8 @@
     "id": "kezins2026redteaming",
     "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
     "authors": [
-      "Niels Kezins",
-      "Udita Ekka",
+      "Nikita Kezins",
+      "Urbas Ekka",
       "Pascal Berrang",
       "Luca Arnaboldi"
     ],
@@ -39,7 +39,7 @@
     "links": {
       "arxiv": "https://arxiv.org/abs/2605.10901"
     },
-    "bibtex": "@article{kezins2026redteaming,\n  title={Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers},\n  author={Kezins, Niels and Ekka, Udita and Berrang, Pascal and Arnaboldi, Luca},\n  journal={arXiv preprint arXiv:2605.10901},\n  year={2026}\n}"
+    "bibtex": "@article{kezins2026redteaming,\n  title={Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers},\n  author={Kezins, Nikita and Ekka, Urbas and Berrang, Pascal and Arnaboldi, Luca},\n  journal={arXiv preprint arXiv:2605.10901},\n  year={2026}\n}"
   },
   {
     "id": "tabraham2026hackroom",
