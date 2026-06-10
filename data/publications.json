@@ -45,12 +45,18 @@
     "id": "tabraham2026hackroom",
     "title": "HackRoom: A Pop Up Cyber Security Escape Room for Interactive Learning",
     "authors": [
-      "M. Tabraham",
-      "T. Barson",
-      "V. Radiukov",
-      "Y. Hegazy",
-      "Y. Fang",
-      "Luca Arnaboldi"
+      "Sam Collins",
+      "Adithya Phanish",
+      "Diya Modi",
+      "Jacob Mayne",
+      "Matt Tabraham",
+      "Trinity Barson",
+      "Viacheslav Radiukov",
+      "Yusuf Hegazy",
+      "Yike Fang",
+      "Luca Arnaboldi",
+      "Marius Muench",
+      "Todd Waugh Ambridge"
     ],
     "year": 2026,
     "venue": "Advances in Teaching and Learning for Cyber Security Education",
@@ -61,7 +67,7 @@
     "links": {
       "doi": "https://doi.org/10.1007/978-3-032-15105-6_1"
     },
-    "bibtex": "@incollection{tabraham2026hackroom,\n  title={HackRoom: A Pop Up Cyber Security Escape Room for Interactive Learning},\n  author={Tabraham, M. and Barson, T. and Radiukov, V. and Hegazy, Y. and Fang, Y. and Arnaboldi, Luca},\n  booktitle={Advances in Teaching and Learning for Cyber Security Education},\n  year={2026},\n  publisher={Springer}\n}"
+    "bibtex": "@incollection{tabraham2026hackroom,\n  title={HackRoom: A Pop Up Cyber Security Escape Room for Interactive Learning},\n  author={Collins, Sam and Phanish, Adithya and Modi, Diya and Mayne, Jacob and Tabraham, Matt and Barson, Trinity and Radiukov, Viacheslav and Hegazy, Yusuf and Fang, Yike and Arnaboldi, Luca and Muench, Marius and Waugh Ambridge, Todd},\n  booktitle={Advances in Teaching and Learning for Cyber Security Education},\n  year={2026},\n  publisher={Springer}\n}"
   },
   {
     "id": "albadi2026papertigers",
