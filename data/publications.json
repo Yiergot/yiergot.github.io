@@ -21,6 +21,64 @@
     "bibtex": "@article{metere2026mesh,\n  title={What a Mesh: Formal Security Analysis of WPA3 SAE Wireless Authentication},\n  author={Metere, Roberto and Lilli, Mario and Arnaboldi, Luca and Riccobene, Elvinia},\n  year={2026}\n}"
   },
   {
+    "id": "kezins2026redteaming",
+    "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
+    "authors": [
+      "Niels Kezins",
+      "Udita Ekka",
+      "Pascal Berrang",
+      "Luca Arnaboldi"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "venueShort": "arXiv",
+    "tags": [
+      "AI Safety & ML",
+      "Formal Verification"
+    ],
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2605.10901"
+    },
+    "bibtex": "@article{kezins2026redteaming,\n  title={Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers},\n  author={Kezins, Niels and Ekka, Udita and Berrang, Pascal and Arnaboldi, Luca},\n  journal={arXiv preprint arXiv:2605.10901},\n  year={2026}\n}"
+  },
+  {
+    "id": "tabraham2026hackroom",
+    "title": "HackRoom: A Pop Up Cyber Security Escape Room for Interactive Learning",
+    "authors": [
+      "M. Tabraham",
+      "T. Barson",
+      "V. Radiukov",
+      "Y. Hegazy",
+      "Y. Fang",
+      "Luca Arnaboldi"
+    ],
+    "year": 2026,
+    "venue": "Advances in Teaching and Learning for Cyber Security Education",
+    "venueShort": "Springer 2026",
+    "tags": [
+      "AI Safety & ML"
+    ],
+    "links": {},
+    "bibtex": "@incollection{tabraham2026hackroom,\n  title={HackRoom: A Pop Up Cyber Security Escape Room for Interactive Learning},\n  author={Tabraham, M. and Barson, T. and Radiukov, V. and Hegazy, Y. and Fang, Y. and Arnaboldi, Luca},\n  booktitle={Advances in Teaching and Learning for Cyber Security Education},\n  year={2026},\n  publisher={Springer}\n}"
+  },
+  {
+    "id": "albadi2026papertigers",
+    "title": "No More Paper Tigers: A Taxonomy of Realistic Adversarial Attacks on Machine Learning Based Malware Detection",
+    "authors": [
+      "Asma Al-Badi",
+      "Luca Arnaboldi"
+    ],
+    "year": 2026,
+    "venue": "Forthcoming",
+    "venueShort": "",
+    "tags": [
+      "AI Safety & ML",
+      "IoT Security"
+    ],
+    "links": {},
+    "bibtex": "@article{albadi2026papertigers,\n  title={No More Paper Tigers: A Taxonomy of Realistic Adversarial Attacks on Machine Learning Based Malware Detection},\n  author={Al-Badi, Asma and Arnaboldi, Luca},\n  year={2026}\n}"
+  },
+  {
     "id": "arnaboldi2025bouncing",
     "title": "From Bouncing Break-ins to Frictional Firewalls: Ideas About Interacting Requirements for Vehicle Safety and Security",
     "authors": [
@@ -283,6 +341,26 @@
     "bibtex": "@article{sokolovsky2023generic,\n  title={A generic methodology for the statistically uniform \\& comparable evaluation of Automated Trading Platform components},\n  author={Sokolovsky, Artur and Arnaboldi, Luca},\n  journal={Expert Systems with Applications},\n  year={2023},\n  publisher={Elsevier}\n}"
   },
   {
+    "id": "sokolovsky2023interpretable",
+    "title": "Interpretable Trading Pattern Designed for Machine Learning Applications",
+    "authors": [
+      "Artur Sokolovsky",
+      "Luca Arnaboldi",
+      "Jaume Bacardit",
+      "Thomas Gross"
+    ],
+    "year": 2023,
+    "venue": "Machine Learning with Applications",
+    "venueShort": "MLWA",
+    "tags": [
+      "Trading & ML"
+    ],
+    "links": {
+      "doi": "https://doi.org/10.1016/j.mlwa.2023.100448"
+    },
+    "bibtex": "@article{sokolovsky2023interpretable,\n  title={Interpretable Trading Pattern Designed for Machine Learning Applications},\n  author={Sokolovsky, Artur and Arnaboldi, Luca and Bacardit, Jaume and Gross, Thomas},\n  journal={Machine Learning with Applications},\n  year={2023},\n  publisher={Elsevier}\n}"
+  },
+  {
     "id": "daggitt2023compiling",
     "title": "Compiling Higher-Order Specifications to SMT Solvers: How to Deal with Rejection Constructively",
     "authors": [
@@ -403,9 +481,9 @@
       "Ekaterina Komendantskaya",
       "Yue Li"
     ],
-    "year": 2022,
-    "venue": "Workshop",
-    "venueShort": "",
+    "year": 2023,
+    "venue": "Workshop on Programming Languages and the Law at POPL",
+    "venueShort": "PROLALA@POPL 2023",
     "tags": [
       "Formal Verification",
       "Legal Formalization"
