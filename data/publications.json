@@ -58,7 +58,9 @@
     "tags": [
       "AI Safety & ML"
     ],
-    "links": {},
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-032-15105-6_1"
+    },
     "bibtex": "@incollection{tabraham2026hackroom,\n  title={HackRoom: A Pop Up Cyber Security Escape Room for Interactive Learning},\n  author={Tabraham, M. and Barson, T. and Radiukov, V. and Hegazy, Y. and Fang, Y. and Arnaboldi, Luca},\n  booktitle={Advances in Teaching and Learning for Cyber Security Education},\n  year={2026},\n  publisher={Springer}\n}"
   },
   {
